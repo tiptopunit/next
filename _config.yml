@@ -88,3 +88,5 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-merlot
+
+plugins: - jekyll-redirect-from
