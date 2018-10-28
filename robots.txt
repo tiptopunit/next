@@ -1,0 +1,9 @@
+User-agent: *
+Crawl-delay: 40
+Allow: /
+Sitemap: http://www.tiptopunit.github.io/next/sitemap.xml
+Sitemap: http://tiptopunit.github.io/next/sitemap.xml
+Host: http://tiptopunit.github.io/next
+Host: http://www.tiptopunit.github.io/next
+Host: http://tiptopunit.github.io/next/index.html
+Host: http://www.tiptopunit.github.io/next/index.html
