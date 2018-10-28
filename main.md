@@ -4,12 +4,17 @@ title: Main
 permalink: /main/
 ---
 
-Some information about you!
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-### More Information
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-A place to include any other types of information that you'd like to include about yourself.
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
