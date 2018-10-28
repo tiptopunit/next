@@ -89,4 +89,4 @@ exclude:
 
 theme: jekyll-theme-merlot
 
-plugins: - jekyll-redirect-from
+plugins: jekyll-redirect-from
