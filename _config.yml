@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: TIP-TOP Unit
+name: Tip Top Unit
 
 # Short bio or description (displayed in the header)
 description: Бизнес Делопроизводство Успех
@@ -37,6 +37,8 @@ footer-links:
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
+  name: "kacperduras" # required
+  noscript: "Your noscript tag message." # optional
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -87,6 +89,7 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-cayman
 
-plugins: jekyll-redirect-from
+plugins:
+  - "disqus-for-jekyll"
