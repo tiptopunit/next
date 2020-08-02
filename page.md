@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Page - Page not found
-permalink: /Page.html
+title: Page - Page WWWWWWWWWWWW
+permalink: /page/
 ---
 
 <article class="page">

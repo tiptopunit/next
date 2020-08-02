@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+<article class="page">
 
-### More Information
+  <h1>{{ page.title }}</h1>
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
+  <div class="entry">
+    {{ content }}
+  </div>
 
 [email@domain.com](mailto:adkunit@gmail.com)
